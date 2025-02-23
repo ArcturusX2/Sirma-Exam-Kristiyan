@@ -1,4 +1,4 @@
-~<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,77 +12,87 @@
 </head>
 <body>
 <main>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="images/Sirma-Academy-Logo-White.svg" Alt="Sirma-Logo">
-            </div>
-            <ul>
-                <li><a href="Home#">Home</a></li>
-                <li><a href="Blog#">Blog</a></li>
-                <li><a href="Explore#">Explore</a></li>
-                <li><a href="AboutUs#">About Us</a></li>
-                <li><a href="Contact#">Contact</a></li>
-            </ul>
+    
+    <section class="Hero">
+        <header>
+            <nav>
+                <div class="Navlogo">
+                    <img src="images/Sirma-Academy-Logo-White.svg" Alt="Sirma-Logo">
+                
+                <ul>
+                    <li><a href="Home#">Home</a></li>
+                    <li><a href="Blog#">Blog</a></li>
+                    <li><a href="Explore#">Explore</a></li>
+                    <li><a href="AboutUs#">About Us</a></li>
+                    <li><a href="Contact#">Contact</a></li>
+                    </ul> 
+                </div>
 
-            <div class="navCTA">
-                <button class="SecondaryCTA"><a href="Login#"></a>Login</button>
-                <button class="CTA"><a href="Register#">Register</a></button>
+                <div class="navCTA">
+                    <button class="SecondaryCTA"><a href="Login#"></a>Login</button>
+                    <button class="CTA"><a href="Register#">Register</a></button>
+                </div>
+            </nav>
+        </header>
+        <div class="HeroItems">
+            <div class="HeroTextItems">
+                <h1 class="MainPageText">Discover Bulgaria's Breathtaking Beauty</h1>
+        
+                <p class="SubtextHero">Embark on a journey through Bulgaria's stunning landscapes, vibrant cities, and sunny beaches. Your gateway to unforgettable experiences!</p>
             </div>
-        </nav>
-    </header>
-    <section>
-        <div class="maintext">
-            <h1 class="MainPageText">Discover Bulgaria's Breathtaking Beauty</h1>
+            <button class="CTA"><a href="ExploreNow#">Explore Now</a></button>
         </div>
-        <p class="Subtext1">Embark on a journey through Bulgaria’s stunning landscapes, vibrant cities, and sunny beaches. Your gateway to unforgettable experiences!</p>
-        <button class="CTA"><a href="ExploreNow#">Explore Now</a></button>
+        
         <div class="Stats">
-            <div>
+            <div class="Statbox">
                 <!--Stat 1 -->
                 <h2>3K+</h2>
-                <span>Beautiful Destinations</span>
+                <span class="Subtext1">Beautiful Destinations</span>
             </div>
 
-            <div>
+            <div class="Statbox">
                 <!--Stat 2  -->
                 <h2>8+</h2>
-                <span>Years of Ecpertise</span>
+                <span class="Subtext1">Years of Ecpertise</span>
             </div>
 
-            <div>
+            <div class="Statbox">
                 <!--Stat 3  -->
                 <h2>10K+</h2>
-                <span>Happy Travelers</span>
+                <span class="Subtext1">Happy Travelers</span>
             </div>
 
-            <div>
+            <div class="Statbox">
                 <!--Stat 4  -->
                 <h2>4.5</h2>
-                <span>User Rating</span>
+                <span class="Subtext1">User Rating</span>
             </div>
         </div>
     </section>
     <section class="DestinationCards">
         <div class="PageSubHeading">
             <h1>Exploring Bulgaria's breathtaking scenery & landscapes</h1>
-            <p class="Subtext2">Discover Bulgaria's Wonders Effortlessly - Your shortcut to one-click adventures!</p>
+            <p class="Subtext1Blk TextBoundingBox">Discover Bulgaria's Wonders Effortlessly - Your shortcut to one-click adventures!</p>
         </div>
         <div class="Card-Stack">
                 <!-- Card1 -->
             <div class="CardLink">
-                <h2>Nesebar</h2>
-                <p class="Subtext1">Bulgaria</p>
+
+                <div class="ImageHolder">
+                    <img src="images/200819101951-07-reconnect-bulgaria-highlights-nessebar.jpg" Alt="NesebarImg">
+                </div>
+                    <h2>Nesebar</h2>
+                    <p class="Subtext1Blk">Bulgaria</p>
             </div>
                 <!-- Card2 -->
             <div class="CardLink">
                 <h2>Plovdiv</h2>
-                <p class="Subtext1">Bulgaria</p>
+                <p class="Subtext1Blk">Bulgaria</p>
             </div>
                 <!-- Card3 -->
             <div class="CardLink">
                 <h2>Sofia</h2>
-                <p class="Subtext1">Bulgaria</p>
+                <p class="Subtext1Blk">Bulgaria</p>
             </div>
         </div>
     </section>
@@ -100,36 +110,47 @@
                     <!-- STEP1 -->
                     <div class="Steps">
                         <div class="StepIcon">
-                            <img src="" Alt="Destination">
+                            <img src="images/Trip.svg" Alt="Suitcase">
                         </div>
-                        <h3>Choose Your Destination</h3>
-                        <p class="Subtext2">Select from thousands of beautiful places</p>
+
+                        <div class="StepText">
+                            <h3>Choose Your Destination</h3>
+                            <p class="Subtext2">Select from thousands of beautiful places</p>
+                        </div>
                     </div>
                         
                     <!-- STEP2 -->
                     <div class="Steps">
                         <div class="StepIcon">
-                            <img src="" Alt="Destination">
+                            <img src="images/Location.svg" Alt="location">
                         </div>
-                        <h3>Personalize Your Trip</h3>
-                        <p class="Subtext2">Get custom itineraries tailored to your preferences</p>
+
+                        <div class="StepText">
+                            <h3>Personalize Your Trip</h3>
+                            <p class="Subtext2">Get custom itineraries tailored to your preferences</p>
+                        </div>    
                     </div>
                     
                     <!-- STEP3 -->
                     <div class="Steps">
                         <div class="StepIcon">
-                            <img src="" Alt="Destination">
+                            <img src="images/Travel.svg" Alt="Destination">
                         </div>
-                        <h3>Travel Effortlessly</h3>
-                        <p class="Subtext2">Book and explore Norway without hassle</p>
+
+                        <div class="StepText">
+                            <h3>Travel Effortlessly</h3>
+                            <p class="Subtext2">Book and explore Norway without hassle</p>
+                        </div>
                     </div>
 
-                    <button class="CTA"><a href="Book#">Book your spot</a></button>
+                    
             </div>
+            <button class="CTA"><a href="Book#">Book your spot</a></button>
         </div>
         
-        <div class="RightContent"></div>
-        <img src="/images/bulgaria-12.jpg" alt="Bulagrian-Mountains">
+        <div class="RightContent">
+            <!-- <img src="images/bulgaria-12.jpg" alt="Bulagrian-Mountains"> -->
+        </div>
     </section>
 
     <section class="Offers">
